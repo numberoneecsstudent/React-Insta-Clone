@@ -1,6 +1,6 @@
 import React from 'react';
-import data from '../dummy-data.js'
-import './App.css';
+import data from './dummy-data';
+import PostContainer from './components/PostContainer/PostContainer'
 
 class App extends React.Component {
   constructor() {
