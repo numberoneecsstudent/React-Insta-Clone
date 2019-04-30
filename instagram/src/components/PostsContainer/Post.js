@@ -1,6 +1,8 @@
 import React from 'react';
-import CommentSection from '../CommentSection/CommentSection';
+import CommentSection from '../CommentSection/CommentSectionContainer';
 import PostHeader from './PostHeader';
+
+import './Posts.css';
 
 const Post = props => {
   return (
@@ -21,4 +23,4 @@ const Post = props => {
   );
 };
 
-export default Post; 
+export default Post;
