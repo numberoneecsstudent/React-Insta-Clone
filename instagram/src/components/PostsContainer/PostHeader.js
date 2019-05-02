@@ -1,5 +1,11 @@
 import React from 'react';
 import './Posts.css';
+import styled, { css } from 'styled-components';
+
+const PostHeaderDiv = styled.div`
+display: flex;
+padding: 10px;
+`;
 
 const PostHeader = props => {
   return (

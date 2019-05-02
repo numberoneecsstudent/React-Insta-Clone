@@ -1,15 +1,7 @@
-.comment-text {
-  text-align: left;
-  padding: 2px;
-  margin-left: 4px;
+.post-thumb {
+  height: 100%;
+  border-radius: 50%;
 }
-
-.comment {
-  font-weight: 300;
-  font-size: 14px;
-}
-
-.user {
-  font-weight: 500;
-  font-size: 12px;
+.like-section {
+  display: flex;
 }

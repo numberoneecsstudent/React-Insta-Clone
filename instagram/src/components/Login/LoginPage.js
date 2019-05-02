@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Button, FormGroup } from 'reactstrap';
-import './Login.css';
+import { Button, FormGroup, Input, Form } from 'reactstrap';
 
 class Login extends Component {
   constructor(props) {
@@ -23,11 +22,11 @@ class Login extends Component {
 
   render() {
     return (
-      <form className="login-form">
+      <Form className="login-form">
         <h3>Welcome to React Insta Clone</h3>
         <div>Please Login</div>
         <FormGroup>
-          <input
+          <Input
             type="text"
             placeholder="User Name"
             name="username"
@@ -36,7 +35,7 @@ class Login extends Component {
           />
         </FormGroup>
         <FormGroup>
-          <input
+          <Input
             type="password"
             placeholder="Password"
             name="password"
@@ -48,7 +47,7 @@ class Login extends Component {
             Log In
           </Button>
         </FormGroup>
-      </form>
+      </Form>
     );
   }
 }

@@ -11,7 +11,8 @@
     "react-fontawesome": "^1.6.1",
     "react-scripts": "1.1.4",
     "react-transition-group": "^4.0.0",
-    "reactstrap": "^8.0.0"
+    "reactstrap": "^8.0.0",
+    "styled-components": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
